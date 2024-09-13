@@ -9,24 +9,12 @@ public class Textbook {
         this.author = author;
         this.publisher = publisher;
     }
-    public String getTitle() {
-        return title;
-    }
-    public String getAuthor() {
-        return author;
-    }
-    public String getPublisher() {
-        return publisher;
-    }
-    public void setTitle(String title) {
-        this.title = title;
-    }
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-    public void setPublisher(String publisher) {
-        this.publisher = publisher;
-    }
+    public String getTitle() { return title; }
+    public String getAuthor() { return author; }
+    public String getPublisher() { return publisher; }
+    public void setTitle(String title) { this.title = title; }
+    public void setAuthor(String author) { this.author = author; }
+    public void setPublisher(String publisher) { this.publisher = publisher; }
     public void printTextbook() {
         System.out.println("Textbook: " + title + " by " + author);
         System.out.println("Publisher: " + publisher);

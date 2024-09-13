@@ -6,12 +6,8 @@ public class SalariedEmployee extends Employee {
         super(firstName, lastName, ssn);
         this.weeklySalary = weeklySalary;
     }
-    public double getWeeklySalary() {
-        return weeklySalary;
-    }
-    public void setWeeklySalary(double weeklySalary) {
-        this.weeklySalary = weeklySalary;
-    }
+    public double getWeeklySalary() { return weeklySalary; }
+    public void setWeeklySalary(double weeklySalary) { this.weeklySalary = weeklySalary; }
     @Override
     public String toString() { return String.format("Salaried Employee: %s\nWeekly Salary: %.2f", super.toString(), getWeeklySalary()); }
 }

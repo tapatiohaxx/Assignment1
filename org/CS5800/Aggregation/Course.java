@@ -9,24 +9,12 @@ public class Course {
         this.instructors = instructors;
         this.textbooks = textbooks;
     }
-    public String getCourseName() {
-        return courseName;
-    }
-    public void setCourseName(String courseName) {
-        this.courseName = courseName;
-    }
-    public Instructor[] getInstructors() {
-        return instructors;
-    }
-    public void setInstructors(Instructor[] instructors) {
-        this.instructors = instructors;
-    }
-    public Textbook[] getTextbooks() {
-        return textbooks;
-    }
-    public void setTextbooks(Textbook[] textbooks) {
-        this.textbooks = textbooks;
-    }
+    public String getCourseName() { return courseName; }
+    public void setCourseName(String courseName) { this.courseName = courseName; }
+    public Instructor[] getInstructors() { return instructors; }
+    public void setInstructors(Instructor[] instructors) { this.instructors = instructors; }
+    public Textbook[] getTextbooks() { return textbooks; }
+    public void setTextbooks(Textbook[] textbooks) { this.textbooks = textbooks; }
     public void printCourseInfo() {
         System.out.println("Course Name: " + courseName);
         for (Instructor instructor : instructors)
