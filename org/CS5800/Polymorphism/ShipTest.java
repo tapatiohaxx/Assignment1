@@ -1,8 +1,6 @@
 package org.CS5800.Polymorphism;
-
 import java.util.Scanner;
 public class ShipTest {
-    
     public static void main(String[] args) {
         Ship[] ships = new Ship[3];
         ships[0] = new Ship("SS Anne", "1998");

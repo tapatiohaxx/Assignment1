@@ -1,6 +1,6 @@
 package org.CS5800.Inheritance;
 
-public class EmployeeTest {
+public class  EmployeeTest {
     public static void main(String[] args) {
         SalariedEmployee joe = new SalariedEmployee("Joe", "Jones", "111-11-1111", 2500);
         HourlyEmployee stephanie = new HourlyEmployee("Stephanie", "Smith", "222-22-2222", 25, 32);
